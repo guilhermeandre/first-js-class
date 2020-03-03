@@ -43,13 +43,13 @@ console.log (`You will need ${totalSnacks} snacks to last you until the ripe old
 let radius;
 let circumference;
 let area;
-let π;
+let pi;
 
 radius = 14;
-π = 3.14159;
+pi = Math.PI;
 
-circumference = 2 * π * radius;
-area = π * (radius*radius);
+circumference = 2 * pi * radius;
+area = pi * (radius*radius);
 
 console.log(`The circumference is ${circumference}`);
 console.log(`The area is ${area}`);
