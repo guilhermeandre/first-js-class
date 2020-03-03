@@ -69,3 +69,7 @@ fahrenheit = 90;
 celsius = (fahrenheit - 32) * 5/9;
 
 console.log(`The ${fahrenheit} temperature in Fahrenheit is the same as ${celsius} in Celsius`);
+
+document.querySelector(`.lab`);
+let sayHello = document.querySelector(`.lab`);
+sayHello.textContent = `Hello World!`;
